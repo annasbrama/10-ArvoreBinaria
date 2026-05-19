@@ -157,6 +157,6 @@ void exibirElementosArvore(NO* no)
 	}
 
 	exibirElementosArvore(no->esq);
-	cout << no->valor << endl;
+	cout << no->valor << " ";
 	exibirElementosArvore(no->dir);
 }
